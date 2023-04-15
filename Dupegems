@@ -1,0 +1,18 @@
+--petsimxdupe--
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("psxdupeV4","Ocean")
+
+
+--maindupepsx--
+local Tab = Window:NewTab("DupeV4")
+local Section = Tab:NewSection("dupeV4")
+Section:NewButton("DuPEV4", "you can dupe directly from your inventory", function()
+    
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zitroxx9939/psxdupe/main/psxdupescript", true))()
+    print("Clicked")
+end)
+Section:NewButton("GemsDupe", "you can dupe your gems with it you need ber 3b gems to dupe", function()
+    print("Clicked")
+end)
+--petsimxdupe--
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
